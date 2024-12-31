@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"> 
+        <h1>Image Color Picker</h1>
+        <input type="file" id="imageInput" accept="image/*">
+        <canvas id="imageCanvas" style="display: none;"></canvas>
+        <div class="image-preview" id="imagePreview">
+            <img id="selectedImage" src="" alt="Selected Image" />
+        </div>
+        <div class="color-display" id="colorDisplay"></div>
+        <div id="colorCodeDisplay"></div>
+    </div>
+    <script src="img.js"></script>
+</body>
+</html>
